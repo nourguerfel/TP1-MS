@@ -67,7 +67,7 @@ Selon la vérification réalisée, les commandes `java -version` et `javac -vers
 
 **Figure 1 — Vérification du JDK 17 dans PowerShell**
 
-![Vérification de Java, javac et JAVA_HOME](images/jdk-verification.png)
+![Vérification de Java, javac et JAVA_HOME](images/1.png)
 
 ---
 
@@ -87,7 +87,7 @@ Le projet a été créé dans **IntelliJ IDEA** selon les étapes suivantes :
 
 **Figure 2 — Création du projet Maven dans IntelliJ IDEA**
 
-![Création du projet Maven TP1](images/creation-projet-maven.png)
+![Création du projet Maven TP1](images/2.png)
 
 ### 3.2. Organisation des fichiers
 
@@ -222,7 +222,7 @@ public class PresentationStatique {
 21.0
 ```
 
-![Activité 1-1 — code et résultat](images/activite1-1.png)
+![Activité 1-1 — code et résultat](images/3.png)
 
 ### Question 9 — Comment cette solution illustre-t-elle le couplage faible ?
 
@@ -280,9 +280,9 @@ Cet extrait illustre les opérations centrales ; la classe complète doit égale
 
 **Captures d'écran — configuration et exécution**
 
-![Activité 1-2 — configuration et code](images/activite1-2(1).png)
+![Activité 1-2 — configuration et code](images/4.png)
 
-![Activité 1-2 — exécution](images/activite1-2(2).png)
+![Activité 1-2 — exécution](images/5.png)
 
 ### Question 7 — Pourquoi s'agit-il d'une injection par instanciation dynamique ?
 
@@ -394,9 +394,10 @@ public class PresentationAvecSpring {
 
 **Captures d'écran — configuration XML et résultat**
 
-![Activité 1-3 — configuration et code](images/activite1-3.png)
+![Activité 1-3 — configuration et code](images/6.png)
+![Activité 1-3 — configuration et code](images/7.png)
 
-![Activité 1-3 — exécution](images/activite1-3(2).png)
+![Activité 1-3 — exécution](images/8.png)
 
 ### Question 6 — Comparaison avec l'activité 1-2 concernant la gestion des dépendances
 
@@ -490,7 +491,7 @@ public class PresentationAvecAnnotation {
 21.0
 ```
 
-![Activité 1-4 — annotations Spring et exécution](images/activite1-4.png)
+![Activité 1-4 — annotations Spring et exécution](images/9.png)
 
 ### Question 5 — Comment Spring gère-t-il l'injection avec les annotations ?
 
@@ -545,12 +546,4 @@ Ce TP montre une évolution progressive de la gestion des dépendances :
 4. **Spring avec annotations** automatise la découverte des composants et leur injection, sans configuration XML des beans.
 
 La distinction essentielle est la suivante : le **couplage faible** réduit la dépendance aux implémentations concrètes ; l'**injection de dépendances** consiste à fournir les objets nécessaires depuis l'extérieur ; l'**inversion de contrôle** confie la responsabilité de leur création et de leur assemblage à un mécanisme externe, ici le conteneur Spring.
-
----
-
-### Référence pédagogique
-
-- [Correction du TP1 proposée par l'enseignante](https://github.com/amal-abid05/TP1-MS)
-
-> **Note sur les figures :** les liens `images/...` correspondent aux captures d'écran du projet personnel. Ils fonctionneront sur GitHub uniquement si ces fichiers ont été ajoutés au dépôt sous les mêmes noms et avec la même casse.
 
